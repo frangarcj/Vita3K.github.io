@@ -1,7 +1,5 @@
 ---
 title: posts
-date: {}
-published: true
 ---
 
 <div class="posts">
