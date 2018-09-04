@@ -170,7 +170,7 @@ published: true
             };
         });
     </script>
-
+ {% raw %}
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
@@ -200,7 +200,7 @@ published: true
             </div>
         </div>
     </nav>
-
+ {% endraw %}
     <!-- Language selection -->
     <div class="modal fade language" id="language" tabindex="-1" role="dialog" aria-labelledby="language" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -245,7 +245,7 @@ published: true
     </section>
 
     <div ng-repeat="report in reports">
-        <section class="blog-body" ng-class="'bg-dark text-white'" id="{{report.id}}">
+        <section class="blog-body" ng-class="'bg-dark text-white'" >
             <div class="container" id="blog-container">
 			  {% for post in site.posts %}
               <div class="row blog-post">
@@ -259,7 +259,7 @@ published: true
             </div>
         </section>
     </div>
-
+ {% raw %}
     <section class="text-white" id="copyright">
         <div class="container">
             <div class="row">
@@ -274,7 +274,7 @@ published: true
             </div>
         </div>
     </section>
-
+ {% endraw %}
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
