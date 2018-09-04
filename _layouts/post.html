@@ -177,7 +177,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html?lang={{lang}}">{{texts[6]}}</a>
+                        <a class="nav-link js-scroll-trigger" href="index.html?lang={{lang | angular }}">{{texts[6]| angular }}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#language">
@@ -202,7 +202,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">{{texts[19]}}</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">{{texts[19] | angular }}</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -240,7 +240,7 @@
         </div>
     </section>
     <div>
-        <section class="blog-body" ng-class="'bg-dark text-white'" id="{{report.id}}">
+        <section class="blog-body" ng-class="'bg-dark text-white'">
             <div class="container" id="blog-container">
               <div class="row blog-post">
                     <div class="col-lg-12 mx-auto text-center">
@@ -260,10 +260,10 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p class="mb-5">
-                        {{texts[15]}} {{texts[16]}}
+                        {{texts[15]| angular }} {{texts[16]| angular }}
                         <br>
                         <br> Copyright © 2018 Vita3K team
-                        <br> {{texts[17]}} Gordon Mackay - <a href="https://gordonmackayillustration.blogspot.co.uk/">Blog</a> - <a href="https://www.etsy.com/uk/shop/GMackayIllustration">Etsy</a>
+                        <br> {{texts[17]| angular }} Gordon Mackay - <a href="https://gordonmackayillustration.blogspot.co.uk/">Blog</a> - <a href="https://www.etsy.com/uk/shop/GMackayIllustration">Etsy</a>
                     </p>
                 </div>
             </div>
